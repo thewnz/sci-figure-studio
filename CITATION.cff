@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Sci-Figure Studio: 科研绘图工作台"
+authors:
+  - alias: thewnz
+    website: "https://github.com/thewnz"
+version: 0.2.1
+date-released: "2026-11-16"
+license: MIT
+repository-code: "https://github.com/thewnz/sci-figure-studio"
+keywords:
+  - scientific-figures
+  - publication
+  - qoder-plugin
+  - matplotlib
+  - svg
+  - diagram
+  - journal-compliance

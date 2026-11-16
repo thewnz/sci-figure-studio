@@ -1,0 +1,50 @@
+{
+  "name": "sci-figure-studio",
+  "displayName": "科研绘图工作台",
+  "version": "0.2.1",
+  "description": "面向顶刊顶会投稿的科研绘图插件：支持数据图、流程图、概念图，以及参考图式“总览+局部放大”构图；内置通用科学图元与 rich/strict 双主题，按 14 套期刊会议规范生成可编辑矢量并自动审计。",
+  "author": {
+    "name": "SciFigure Studio"
+  },
+  "keywords": [
+    "qoder-plugin",
+    "scientific-figures",
+    "research-figures",
+    "publication",
+    "matplotlib",
+    "svg",
+    "diagram",
+    "flowchart",
+    "nature",
+    "ieee",
+    "acm",
+    "vector",
+    "colorblind",
+    "科研绘图",
+    "顶刊插图"
+  ],
+  "skills": [
+    "./skills/sci-figure",
+    "./skills/sci-figure-audit",
+    "./skills/sci-figure-illustrator"
+  ],
+  "commands": "./commands",
+  "interface": {
+    "displayName": "科研绘图工作台",
+    "shortDescription": "顶刊顶会级数据图、流程图、概念图与合规审计",
+    "longDescription": "用 Figure Contract 先锁定图面任务与期刊约束，再以 matplotlib/SVG 确定性生成数据图、流程图和概念图；新增 overview_detail 总览+局部放大、光谱/张量/网络/矩阵/公式等通用图元，以及 rich（图形摘要）与 strict（正式投稿）双主题。支持 14 套期刊会议预设，自动检查尺寸、DPI、字体、字号、嵌入、色盲与灰度可读性，输出 SVG/PDF/PNG/TIFF/Draw.io/Mermaid。",
+    "developerName": "SciFigure Studio",
+    "category": "research",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Execute"
+    ],
+    "defaultPrompt": [
+      "把这份实验数据做成符合 Nature 单栏要求的数据图",
+      "根据这段方法描述画一张可编辑的论文流程图",
+      "检查这张图是否符合 IEEE 投稿要求并给出修复建议"
+    ],
+    "brandColor": "#2F5F8F"
+  }
+}
